@@ -27,8 +27,8 @@ type Config struct {
 func NewGuacamoleConfiguration() *Config {
 	return &Config{
 		Parameters:          map[string]string{},
-		OptimalScreenWidth:  1024,
-		OptimalScreenHeight: 768,
+		OptimalScreenWidth:  2048,
+		OptimalScreenHeight: 1546,
 		OptimalResolution:   96,
 		AudioMimetypes:      make([]string, 0, 1),
 		VideoMimetypes:      make([]string, 0, 1),
